@@ -1,10 +1,14 @@
 spec:
   name: sample-nextjs
   services:
-  - environment_slug: node-js
-    git:
-      branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-nextjs.git
-    instance_count: 1
-    instance_size_slug: apps-s-1vcpu-0.5gb
-    name: sample-nextjs
+    - name: sample-nextjs
+      environment_slug: node-js
+      github:
+        repo: Anxiietyx/sample-nextjs
+        branch: main
+        deploy_on_push: true
+      instance_count: 1
+      instance_size_slug: apps-s-1vcpu-0.5gb
+      build_command: npm run build
+      run_command: npm start
+      http_port: 3000

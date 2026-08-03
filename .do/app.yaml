@@ -1,8 +1,11 @@
 name: sample-nextjs
 services:
-- environment_slug: node-js
-  github:
-    branch: main
-    deploy_on_push: true
-    repo: Anxiietyx/sample-nextjs
-  name: sample-nextjs
+  - name: sample-nextjs
+    environment_slug: node-js
+    github:
+      repo: Anxiietyx/sample-nextjs
+      branch: main
+      deploy_on_push: true
+    build_command: npm run build
+    run_command: npm start
+    http_port: 3000
