@@ -49,7 +49,7 @@ export default function ProductDetailPage() {
   const [selectedHp, setSelectedHp] = useState<string>('1');
 
   // Find the specific product (e.g., Midea Celest Air Conditioner)
-  const product = PRODUCTS.find(p => p.id === 4) || PRODUCTS[3];
+  const product = PRODUCTS.find(p => p.id === 9) || PRODUCTS[3];
 
   // Get the price based on the selected HP
   const currentPrice = HP_PRICES[selectedHp] ?? product.price;
