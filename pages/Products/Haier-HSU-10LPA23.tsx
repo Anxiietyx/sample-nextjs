@@ -73,6 +73,7 @@ export default function ProductDetailPage() {
           <div className="text-2xl font-bold text-black">
             RM{currentPrice}
           </div>
+          <br/>-Price includes installation and 6ft copper piping
 
           {/* HP Selection Stars/Buttons */}
           <div className="flex flex-col gap-2">

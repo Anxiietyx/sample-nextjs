@@ -17,7 +17,7 @@ const PRODUCTS: Product[] = [
   { id: 2, name: 'Daikin FTKE Inverter Series / FTKE25A', brand: 'Daikin', price: '1540 - 3420', slug: 'Daikin-FTKE25A', image: '/Daikin-FTKE25A/Daikin-FTKE25A.png' },
   { id: 3, name: 'Haier Non-Inverter Series / HSU-10LPA23', brand: 'Haier', price: '1150 - 2660', slug: 'Haier-HSU-10LPA23', image: '/Haier-HSU-10LPA23/Haier-non-inverter.png' },
   { id: 4, name: 'Acson Water Heater (Non-Pump) ASH38A / (DC Pump) ASH38AP', brand: 'ACSON', price: '300 and 500', slug: 'ACSONHeater', image: '/ACSONHeater/ACSONHeater.jpeg' },
-  { id: 5, name: 'Midea Portable Air Conditioner', brand: 'Midea', price: '799 - 1399', slug: 'Midea-MPPA-08CRN7', image: '/Midea-MPPA-08CRN7/Midea-MPPA-08CRN7.PNG' },
+  { id: 5, name: 'Midea Portable Air Conditioner', brand: 'Midea', price: '799 - 1399', slug: 'Midea-MPPA-08CRN7', image: '/Midea-MPPA-08CRN7/Midea-MPPA-08CRN7.png' },
   { id: 6, name: 'Panasonic X-Deluxe Inverter KU Series (AKH-1) / CS-KU9AKH-1', brand: 'Panasonic', price: '1890 - 4400', slug: 'Pana-CS-KU9AKH-1', image: '/Pana-CS-KU9AKH-1/Pana-CS-KU9AKH-1.png' },
   { id: 8, name: 'Daikin FTKF Prime Inverter Series / FTKF25B', brand: 'Daikin', price: '1800 - 3750', slug: 'Daikin-FTKF25B', image: '/Daikin-FTKF25B/Daikin-FTKF25B.jpeg' },
   { id: 9, name: 'Daikin FTKP Prime Inverter Series / FTKP28A', brand: 'Daikin', price: '2160 - 4130', slug: 'Daikin-FTKP28A', image: '/Daikin-FTKP28A/Daikin-FTKP28A.jpeg' },
