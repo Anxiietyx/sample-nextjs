@@ -60,7 +60,7 @@ export default function ProductDetailPage() {
         {/* Product Image & Badges */}
         <div className="w-full md:w-1/2 bg-gray-100 p-6 flex flex-col items-center justify-center relative">
           <Image 
-            src="/ACSONHeater/ACSONHeater.jpeg" 
+            src="/Daikin-FTKE25A/Daikin-FTKE25A.png" 
             alt={product.name} 
             width={650} 
             height={417}
@@ -80,7 +80,7 @@ export default function ProductDetailPage() {
           <div className="flex flex-col gap-2">
             <span className="text-sm font-medium text-gray-700">Select Horsepower (HP):</span>
             <div className="flex gap-4">
-              {['Non-DC','DC'].map(hp => (
+              {['1','1.5','2','2.5'].map(hp => (
                 <button
                   key={hp}
                   onClick={() => setSelectedHp(hp)}

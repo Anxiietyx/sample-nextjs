@@ -78,7 +78,7 @@ export default function ProductDetailPage() {
           <div className="flex flex-col gap-2">
             <span className="text-sm font-medium text-gray-700">Select Horsepower (HP):</span>
             <div className="flex gap-4">
-              {['Non-DC','DC'].map(hp => (
+              {['1','1.5','2','2.5'].map(hp => (
                 <button
                   key={hp}
                   onClick={() => setSelectedHp(hp)}

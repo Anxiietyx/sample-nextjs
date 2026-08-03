@@ -30,25 +30,25 @@ const PRODUCTS: Product[] = [
 
 // Updated HP price mapping based on your request
 const HP_PRICES: Record<string, number> = {
-  '1': 999,
+  '1': 950,
   '1.5': 1050,
   '2': 1100,
-  '2.5': 1150,
+  '2.5': 2780,
 };
 
 const featureImages = [
-  '/Chione/ChioneFeature_Page_01.png',
-  '/Chione/ChioneFeature_Page_02.png',
-  '/Chione/ChioneFeature_Page_03.png',
-  '/Chione/ChioneFeature_Page_04.png',
-  '/Chione/ChioneFeature_Page_05.png',
-  '/Chione/ChioneFeature_Page_06.png',
-  '/Chione/ChioneFeature_Page_07.png',
-  '/Chione/ChioneFeature_Page_08.png',
-  '/Chione/ChioneFeature_Page_09.png',
-  '/Chione/ChioneFeature_Page_10.png',
-  '/Chione/ChioneFeature_Page_11.png',
-  '/Chione/ChioneFeature_Page_12.png',
+  '/Chione/Chione-Catalogue-2026-Output_Page_01.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_02.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_03.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_04.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_05.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_06.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_07.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_08.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_09.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_10.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_11.jpg',
+  '/Chione/Chione-Catalogue-2026-Output_Page_12.jpg',
   
 ];
 
@@ -68,7 +68,7 @@ export default function ProductDetailPage() {
         {/* Product Image & Badges */}
         <div className="w-full md:w-1/2 bg-gray-100 p-6 flex flex-col items-center justify-center relative">
           <Image 
-            src="/ACSONHeater/ACSONHeater.jpeg" 
+            src="/Chione/Chione.png" 
             alt={product.name} 
             width={650} 
             height={417}
@@ -88,7 +88,7 @@ export default function ProductDetailPage() {
           <div className="flex flex-col gap-2">
             <span className="text-sm font-medium text-gray-700">Select Horsepower (HP):</span>
             <div className="flex gap-4">
-              {['Non-DC','DC'].map(hp => (
+              {['1','1.5','2','2.5'].map(hp => (
                 <button
                   key={hp}
                   onClick={() => setSelectedHp(hp)}
