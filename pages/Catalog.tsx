@@ -13,7 +13,7 @@ interface Product {
 }
 
 const PRODUCTS: Product[] = [
-  { id: 1, name: 'Midea Chione Inverter / MSCH-10CRFN8-ID', brand: 'Midea', price: '950 - 2780', slug: 'Midea-Chione', image: '/Chione/Chione.png' },
+ // { id: 1, name: 'Midea Chione Inverter / MSCH-10CRFN8-ID', brand: 'Midea', price: '950 - 2780', slug: 'Midea-Chione', image: '/Chione/Chione.png' },
   { id: 2, name: 'Daikin FTKE Inverter Series / FTKE25A', brand: 'Daikin', price: '1540 - 3420', slug: 'Daikin-FTKE25A', image: '/Daikin-FTKE25A/Daikin-FTKE25A.png' },
   { id: 3, name: 'Haier Non-Inverter Series / HSU-10LPA23', brand: 'Haier', price: '1150 - 2660', slug: 'Haier-HSU-10LPA23', image: '/Haier-HSU-10LPA23/Haier-non-inverter.png' },
   { id: 4, name: 'Acson Water Heater (Non-Pump) ASH38A / (DC Pump) ASH38AP', brand: 'ACSON', price: '300 and 500', slug: 'ACSONHeater', image: '/ACSONHeater/ACSONHeater.jpeg' },
@@ -25,7 +25,7 @@ const PRODUCTS: Product[] = [
   { id: 11, name: 'Panasonic Eco Inverter YU Series (AKH-1) / CS-YU9AKH-1', brand: 'Panasonic', price: '1310 - 3850', slug: 'Pana-CS-YU9AKH-1', image: '/Pana-CS-YU9AKH-1/Pana-CS-YU9AKH-1.png' },
   { id: 12, name: 'Panasonic Standard Non-Inverter / PN9WKH-1', brand: 'Panasonic', price: '1320 - 3750', slug: 'Pana-PN9WKH-1', image: '/Pana-PN9WKH-1/Pana-PN9WKH-1.png' },
   { id: 13, name: 'Panasonic Standard Inverter PU Series (AKH)/ CS-PU9AKH-1', brand: 'Panasonic', price: '1910 - 3450', slug: 'Pana-CS-PU9AKH-1', image: '/Pana-CS-PU9AKH-1/Pana-PU-9AKH.jpeg' },
-  { id: 14, name: 'Midea Celest Inverter / MSCE-10CRFN8-ID', brand: 'Midea', price: '900 - 2750', slug: 'Midea-Celest', image: '/Midea-Celest/Midea-Celest.jpeg' },
+ // { id: 14, name: 'Midea Celest Inverter / MSCE-10CRFN8-ID', brand: 'Midea', price: '900 - 2750', slug: 'Midea-Celest', image: '/Midea-Celest/Midea-Celest.jpeg' },
 
 ];
 

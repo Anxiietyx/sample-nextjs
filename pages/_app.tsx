@@ -10,7 +10,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     
     <div className="min-h-screen bg-white flex flex-col">
       <Head>
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/Logo.png" />
       </Head>
       {/* Persistent Navigation Bar */}
       <header className="flex items-center justify-between px-6 py-4 border-b border-gray-200 sticky top-0 bg-white z-50">
