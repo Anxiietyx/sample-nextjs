@@ -25,7 +25,7 @@ const PRODUCTS: Product[] = [
   { id: 11, name: 'Panasonic Eco Inverter YU Series (AKH-1) / CS-YU9AKH-1', brand: 'Panasonic', price: '1310 - 3850', slug: 'Pana-CS-YU9AKH-1', image: '/Pana-CS-YU9AKH-1/Pana-CS-YU9AKH-1.png' },
   { id: 12, name: 'Panasonic Standard Non-Inverter / PN9WKH-1', brand: 'Panasonic', price: '1320 - 3750', slug: 'Pana-PN9WKH-1', image: '/Pana-PN9WKH-1/Pana-PN9WKH-1.png' },
   { id: 13, name: 'Panasonic Standard Inverter PU Series (AKH)/ CS-PU9AKH-1', brand: 'Panasonic', price: '1910 - 3450', slug: 'Pana-CS-PU9AKH-1', image: '/Pana-CS-PU9AKH-1/Pana-PU-9AKH.jpeg' },
- // { id: 14, name: 'Midea Celest Inverter / MSCE-10CRFN8-ID', brand: 'Midea', price: '900 - 2750', slug: 'Midea-Celest', image: '/Midea-Celest/Midea-Celest.jpeg' },
+  { id: 14, name: 'Midea Celest Inverter / MSCE-10CRFN8-ID', brand: 'Midea', price: '1200 - 2580', slug: 'Midea-Celest', image: '/Midea-Celest/Midea-Celest.jpeg' },
 
 ];
 
