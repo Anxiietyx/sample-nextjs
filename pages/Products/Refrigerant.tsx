@@ -24,28 +24,21 @@ const PRODUCTS: Product[] = [
   { id: 11, name: 'Panasonic Eco Inverter YU Series (AKH-1) / CS-YU9AKH-1', brand: 'Panasonic', price: '1310 - 3850', slug: 'Pana-CS-YU9AKH-1', image: '/Pana-CS-YU9AKH-1/Pana-CS-YU9AKH-1.png' },
   { id: 12, name: 'Panasonic Standard Non-Inverter / PN9WKH-1', brand: 'Panasonic', price: '1320 - 3750', slug: 'Pana-PN9WKH-1', image: '/Pana-PN9WKH-1/Pana-PN9WKH-1.png' },
   { id: 13, name: 'Panasonic Standard Inverter PU Series (AKH)/ CS-PU9AKH-1', brand: 'Panasonic', price: '1910 - 3450', slug: 'Pana-CS-PU9AKH-1', image: '/Pana-CS-PU9AKH-1/Pana-PU-9AKH.jpeg' },
-  { id: 14, name: 'Midea Celest Inverter / MSCE-10CRFN8-ID', brand: 'Midea', price: '900 - 2750', slug: 'Midea-Celest', image: '/Midea-Celest/Midea-Celest.jpeg' },
+  { id: 14, name: 'R32/R22/R410a', brand: 'Refrigerant', price: '70 - 480', slug: 'Refrigerant', image: '/Refrigerant.jpg' },
 
 ]
 
 // Updated HP price mapping based on your request
 const HP_PRICES: Record<string, number> = {
-  '1': 900,
-  '1.5': 1210,
-  '2': 2180,
-  '2.5': 2430,
-  '3': 2720,
+  'R32 9.2kg': 450,
+  'R22 13.6kg': 470,
+  'R410a 10kg': 480,
+  'R32 3kg': 190,
+  'R22 650g': 70,
+  'R410a 750g': 75,
 };
 
 const featureImages = [
-  '/Midea-Celest/Midea-Celest_Page_1.jpg',
-  '/Midea-Celest/Midea-Celest_Page_2.jpg',
-  '/Midea-Celest/Midea-Celest_Page_3.jpg',
-  '/Midea-Celest/Midea-Celest_Page_4.jpg',
-  '/Midea-Celest/Midea-Celest_Page_5.jpg',
-  '/Midea-Celest/Midea-Celest_Page_6.jpg',
-  '/Midea-Celest/Midea-Celest_Page_7.jpg',
-  '/Midea-Celest/Midea-Celest_Page_8.jpg',
 
 ];
 
@@ -65,7 +58,7 @@ export default function ProductDetailPage() {
         {/* Product Image & Badges */}
         <div className="w-full md:w-1/2 bg-gray-100 p-6 flex flex-col items-center justify-center relative">
           <Image 
-            src="/Pana-PN9WKH-1/Pana-PN9WKH-1.png" 
+            src="/Refrigerant.jpg" 
             alt={product.name} 
             width={650} 
             height={417}
@@ -83,9 +76,9 @@ export default function ProductDetailPage() {
 
           {/* HP Selection Stars/Buttons */}
           <div className="flex flex-col gap-2">
-            <span className="text-sm font-medium text-gray-700">Select Horsepower (HP):</span>
+            <span className="text-sm font-medium text-gray-700">Select Gas Type:</span>
             <div className="flex gap-4">
-              {['1','1.5','2','2.5','3'].map(hp => (
+              {['R32 9.2kg','R22 13.6kg','R410a 10kg','R32 3kg','R22 650g', 'R410a 750g'].map(hp => (
                 <button
                   key={hp}
                   onClick={() => setSelectedHp(hp)}
