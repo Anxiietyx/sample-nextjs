@@ -27,11 +27,11 @@ const PRODUCTS: Product[] = [
   { id: 14, name: 'R32/R22/R410a', brand: 'Gas', price: '', slug: 'Refrigerant', image: '/Refrigerant.jpg' },
 ];
 // Updated HP price mapping based on your request
-const HP_PRICES: Record<string, number> = {
+const HP_PRICES: string[] = [
   '8',
   '10',
   '12',
-};
+];
 
 const featureImages = [
   '/Midea-MPPA-08CRN7/MPPA-Catalogue_Page_1.jpg',

@@ -27,12 +27,12 @@ const PRODUCTS: Product[] = [
   { id: 14, name: 'R32/R22/R410a', brand: 'Gas', price: '', slug: 'Refrigerant', image: '/Refrigerant.jpg' },
 ];
 // Updated HP price mapping based on your request
-const HP_PRICES: Record<string, number> = {
+const HP_PRICES: string[] = [
   '1',
   '1.5',
   '2',
   '2.5',
-};
+];
 
 const featureImages = [
   '/Daikin-FTKF25B/FTKF-Series_Page_1.pdf.png',

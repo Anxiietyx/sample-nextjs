@@ -28,14 +28,14 @@ const PRODUCTS: Product[] = [
 ];
 
 // Updated HP price mapping based on your request
-const HP_PRICES: Record<string, number> = {
+const HP_PRICES: string[] = [
   'R32 9.2kg' ,
   'R22 13.6kg' ,
   'R410a 10kg',
   'R32 3kg',
   'R22 650g' ,
   'R410a 750g' ,
-};
+];
 
 const featureImages = [
 

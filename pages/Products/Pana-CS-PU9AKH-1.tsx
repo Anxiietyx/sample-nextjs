@@ -28,12 +28,12 @@ const PRODUCTS: Product[] = [
 ];
 
 // Updated HP price mapping based on your request
-const HP_PRICES: Record<string, number> = {
+const HP_PRICES: string[] = [
   '1',
   '1.5',
   '2',
   '2.5',
-};
+];
 
 const featureImages = [
     '/Pana-CS-PU9AKH-1/Pana-PU-AKH_Page_1.jpg',
