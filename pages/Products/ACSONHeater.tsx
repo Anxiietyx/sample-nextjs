@@ -30,8 +30,8 @@ const PRODUCTS: Product[] = [
 
 // Updated HP price mapping based on your request
 const HP_PRICES: Record<string, number> = {
-    'Non-DC': 300,
-    'DC' : 500,
+    'Non-DC',
+    'DC',
 };
 
 // Array of feature pages for clean mapping

@@ -29,9 +29,9 @@ const PRODUCTS: Product[] = [
 ]
 // Updated HP price mapping based on your request
 const HP_PRICES: Record<string, number> = {
-  '8': 799,
-  '10': 899,
-  '12': 1399,
+  '8',
+  '10',
+  '12',
 };
 
 const featureImages = [

@@ -12,7 +12,7 @@ interface Product {
 }
 
 const PRODUCTS: Product[] = [
-  { id: 1, name: 'Midea Chione Inverter / MSCH-10CRFN8-ID', brand: 'Midea', price: '950 - 2780', slug: 'Midea-Chione', image: '/Chione/Chione.png' },
+  { id: 1, name: 'Midea Chione Inverter / MSCH-10CRFN8-ID', brand: 'Midea', price: '', slug: 'Midea-Chione', image: '/Chione/Chione.png' },
   { id: 2, name: 'Daikin FTKE Inverter Series / FTKE25A', brand: 'Daikin', price: '1540 - 3420', slug: 'Daikin-FTKE25A', image: '/Daikin-FTKE25A/Daikin-FTKE25A.png' },
   { id: 3, name: 'Haier Non-Inverter Series / HSU-10LPA23', brand: 'Haier', price: '1150 - 2660', slug: 'Haier-HSU-10LPA23', image: '/Haier-HSU-10LPA23/Haier-non-inverter.png' },
   { id: 4, name: 'Acson Water Heater (Non-Pump) ASH38A / (DC Pump) ASH38AP', brand: 'ACSON', price: '300 and 500', slug: 'ACSONHeater', image: '/ACSONHeater/ACSONHeater.jpeg' },
@@ -30,12 +30,12 @@ const PRODUCTS: Product[] = [
 
 // Updated HP price mapping based on your request
 const HP_PRICES: Record<string, number> = {
-  'R32 9.2kg': 450,
-  'R22 13.6kg': 470,
-  'R410a 10kg': 480,
-  'R32 3kg': 190,
-  'R22 650g': 70,
-  'R410a 750g': 75,
+  'R32 9.2kg' ,
+  'R22 13.6kg' ,
+  'R410a 10kg',
+  'R32 3kg',
+  'R22 650g' ,
+  'R410a 750g' ,
 };
 
 const featureImages = [
