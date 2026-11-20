@@ -17,7 +17,7 @@ interface Product {
 const PRODUCTS: Product[] = [
   { id: 1, name: 'Midea Chione Inverter / MSCH-10CRFN8-ID', brand: 'Midea', price: '', slug: 'Midea-Chione', image: '/Chione/Chione.png' },
   { id: 2, name: 'Daikin FTKE Inverter Series / FTKE25A', brand: 'Daikin', price: '', slug: 'Daikin-FTKE25A', image: '/Daikin-FTKE25A/Daikin-FTKE25A.png' },
-  { id: 3, name: 'Haier Non-Inverter Series / HSU-10LPA23', brand: 'Haier', price: '', slug: 'Haier-HSU-10LPA23', image: '/Haier-HSU-10LPA23/Haier-non-inverter.png' },
+//  { id: 3, name: 'Haier Non-Inverter Series / HSU-10LPA23', brand: 'Haier', price: '', slug: 'Haier-HSU-10LPA23', image: '/Haier-HSU-10LPA23/Haier-non-inverter.png' },
   { id: 4, name: 'Acson Water Heater (Non-Pump) ASH38A / (DC Pump) ASH38AP', brand: 'ACSON', price: '', slug: 'ACSONHeater', image: '/ACSONHeater/ACSONHeater.jpeg' },
   { id: 5, name: 'Midea Portable Air Conditioner', brand: 'Midea', price: '', slug: 'Midea-MPPA-08CRN7', image: '/Midea-MPPA-08CRN7/Midea-MPPA-08CRN7.png' },
   { id: 6, name: 'Panasonic X-Deluxe Inverter KU Series (AKH-1) / CS-KU9AKH-1', brand: 'Panasonic', price: '', slug: 'Pana-CS-KU9AKH-1', image: '/Pana-CS-KU9AKH-1/Pana-CS-KU9AKH-1.png' },
@@ -133,9 +133,6 @@ export default function ProductCatalog() {
                   <h3 className="text-black font-bold text-base sm:text-lg group-hover:underline">
                     {product.name}
                   </h3>
-                  <div className="text-amber-500 font-bold text-base sm:text-lg leading-tight mt-2">
-                    From RM {product.price}
-                  </div>
                 </div>
               </Link>
             ))}

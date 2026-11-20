@@ -72,9 +72,10 @@ export default function ProductDetailPage() {
         <div className="w-full md:w-1/2 flex flex-col gap-6">
           <h1 className="text-2xl md:text-3xl font-bold text-black">{product.name}</h1>
           
-          <div className="text-2xl font-bold text-black">
+{/**      <div className="text-2xl font-bold text-black">
             RM{currentPrice}
-          </div>
+          </div>  */}
+          
 
           {/* HP Selection Stars/Buttons */}
           <div className="flex flex-col gap-2">
